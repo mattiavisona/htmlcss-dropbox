@@ -47,3 +47,16 @@
     margin-left: 950px;
 }
 
+.jumbo{
+    width: 130vh;
+    margin: 0 auto;
+    background-color: red;
+    height: 100vh;
+}
+
+.title{
+    height: 200px;
+    width: 110vh;
+    font-size: 5em;
+    padding-top: 120px;
+}
