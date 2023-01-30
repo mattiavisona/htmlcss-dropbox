@@ -52,11 +52,22 @@
     margin: 0 auto;
     background-color: red;
     height: 100vh;
+    padding-top: 120px;
 }
 
+.left-container{
+    display: flex;
+}
 .title{
     height: 200px;
     width: 110vh;
     font-size: 5em;
-    padding-top: 120px;
+    
+}
+
+.img{
+    background-color: white;
+    height: 50vh;
+    width: 290vh;
+    margin-right: 30vh;
 }
