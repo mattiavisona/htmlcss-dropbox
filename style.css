@@ -94,3 +94,10 @@
 .arrow{
  font-size: 50px;
 }
+
+.centered-container{
+    width: 110vh;
+    margin: 0 auto;
+    background-color: blueviolet;
+    height: 100vh;
+}
