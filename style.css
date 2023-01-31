@@ -12,6 +12,7 @@
 .navbar{
     background-color: beige;
     height:80px;
+    
 }
 
 
@@ -28,8 +29,6 @@
     display: flex;
     gap: 1.5em;
     align-items: center;
-    cursor: pointer;
-
 }
 
 .start{
@@ -57,6 +56,7 @@
 
 .left-container{
     display: flex;
+    padding-top: 110px;
 }
 .title{
     height: 200px;
@@ -67,7 +67,30 @@
 
 .img{
     background-color: white;
-    height: 50vh;
     width: 290vh;
+    height: 43vh;
     margin-right: 30vh;
+}
+
+.position-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5em;
+}
+
+.btn{
+    background-color: blue;
+    height: 40px;
+    width: 200px;
+    padding: 12px;
+    color: white;
+    border-radius: 10px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.arrow{
+ font-size: 50px;
 }
