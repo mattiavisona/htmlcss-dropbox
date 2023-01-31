@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 
+
+
 .container{
     background-color: aqua;
-    height: 100vh;
+    height: 88vh;
 }
 
 .navbar{
@@ -42,21 +44,19 @@
 .end-button{
     display: flex;
     gap: 1.5em;
-    align-items: center;
-    margin-left: 950px;
+    margin-left: 970px;
 }
 
 .jumbo{
     width: 130vh;
     margin: 0 auto;
-    background-color: red;
-    height: 100vh;
+    height: 87vh;
     padding-top: 120px;
 }
 
 .left-container{
     display: flex;
-    padding-top: 110px;
+    padding-top: 50px;
 }
 .title{
     height: 200px;
@@ -100,4 +100,16 @@
     margin: 0 auto;
     background-color: blueviolet;
     height: 100vh;
+}
+
+div > h1{
+    font-size: 2.5em;
+}
+
+.checkbox{
+    padding-top: 40px;
+}
+
+.color{
+    accent-color: blue;
 }
