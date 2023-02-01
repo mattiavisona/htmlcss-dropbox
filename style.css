@@ -236,3 +236,31 @@ div > h1{
     margin-top: -35px;
 
 }
+
+section #text-and-photo{
+    padding-top: 100px;
+    display: flex;
+}
+
+.img-man{
+    height: 57vh;
+    width: auto;
+}
+
+.text{
+    padding: 55px 76px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.search{
+    border: 1px solid black;
+    width: 15vh;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+    
