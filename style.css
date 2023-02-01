@@ -196,3 +196,43 @@ div > h1{
 .check{
     color: blue;
 }
+
+#big-tab{
+    border: 1px solid black;
+    height: 25vh;
+    margin-top: 50px;
+    
+}
+
+.bigtab-first{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.title-button-bigtab{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.office-contact{
+    background-color: blue;
+    height: 35px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+
+.container-tab{
+  padding-left:40px ;
+}
+
+.other-contact{
+    padding-bottom: 40px;
+    margin-top: -35px;
+
+}
