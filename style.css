@@ -131,7 +131,7 @@ div > h1{
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    height: 65vh;
+    height: 90vh;
     width: 30vh;
 }
 
@@ -141,7 +141,7 @@ div > h1{
     padding: 5px 5px;
 }
 
-.first-tab-section{
+#tab-content{
     padding: 25px;
 }
 
@@ -149,3 +149,50 @@ div > h1{
     padding-top: 15px;
 }
 
+.second-line{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 20px;
+}
+.row{
+    display: flex;
+}
+
+.first-p, .second-p, .third-p{
+    display: flex;
+    gap: 10px;
+}
+
+.third-line{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+
+.button-tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 40px;
+    color: white;
+    margin-top: 60px;
+}
+
+#small-row{
+    width: 50px;
+}
+
+.fourth-line{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 45px;
+}
+
+.check{
+    color: blue;
+}
