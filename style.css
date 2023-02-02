@@ -93,6 +93,7 @@
 
 .arrow{
  font-size: 50px;
+ cursor: pointer;
 }
 
 .centered-container{
@@ -180,6 +181,7 @@ div > h1{
     height: 40px;
     color: white;
     margin-top: 60px;
+    cursor: pointer;
 }
 
 #small-row{
@@ -263,4 +265,39 @@ section #text-and-photo{
     align-items: center;
     cursor: pointer;
 }
+
+#info{
+    padding-top: 120px;
+}
     
+
+section .all-img{
+    height: 25vh;
+}
+
+.column-img{
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    width: 33vh;
+}
+    
+.row-img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 46px;
+}
+
+.space-to-p{
+    padding-bottom: 40px;
+}
+
+.link{
+    padding-top: 20vh;
+}
+
+.client{
+    padding-top: 50px;
+}
+
